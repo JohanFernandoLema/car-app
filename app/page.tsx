@@ -34,7 +34,7 @@ export default async function Home() {
           </section>
         ) : (
           <div className="home__error-container">
-            <h2 className="text-black text-x1 font-bold">Opps, no results</h2>
+            <h2 className="text-black text-xl font-bold">Opps, no results</h2>
             <p>{allCars?.message}</p>
           </div>
         )}
